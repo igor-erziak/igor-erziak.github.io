@@ -1,0 +1,4 @@
+baseURL = 'https://igor-erziak.github.io/'
+languageCode = 'en-us'
+title = "Igor's Blog"
+theme = 'ananke'
