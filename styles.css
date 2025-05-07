@@ -21,26 +21,3 @@ body {
     transition: fill 0.3s;
     outline: none; /* Remove any outline */
 }
-
-.country.correct {
-    fill: #0e7f0e; /* Green for correctly guessed countries */
-}
-
-.country.incorrect {
-    fill: #ff0000; /* Red for incorrectly guessed countries */
-}
-
-.country:active {
-    fill: #ffcc00;
-    outline: none; /* Remove any outline */
-}
-
-.info {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-}
